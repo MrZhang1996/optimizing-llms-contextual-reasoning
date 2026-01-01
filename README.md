@@ -2,20 +2,43 @@
 
 ## Repository Status
 
-**🚧 To be released**
+**✅ Accepted at COAI 2026** - Camera-ready version due 2026-01-08
 
-This repository will contain the implementation and experimental code for the paper "Optimizing Large Language Models for Contextual Reasoning in Multi-Task Environments" currently under review at COAI 2025.
+This repository contains the implementation and experimental code for the paper "Optimizing Large Language Models for Contextual Reasoning in Multi-Task Environments" accepted at COAI 2026 (Conference on Artificial Intelligence).
 
 ## Paper Information
 
 - **Title**: Optimizing Large Language Models for Contextual Reasoning in Multi-Task Environments
-- **Status**: Under review at COAI 2025 - Conference on Artificial Intelligence
+- **Status**: Accepted at COAI 2026 - Conference on Artificial Intelligence
 - **Authors**: John Smith, et al.
+- **Conference**: COAI 2026
+- **Camera-ready Deadline**: 2026-01-08
 
 ## Abstract
 
 This paper proposes optimization strategies for LLMs to enhance contextual reasoning across multiple tasks, with empirical results showing superior adaptability in dynamic environments.
 
+## Key Contributions
+
+- **Novel Optimization Framework**: A comprehensive approach to optimizing LLMs for multi-task contextual reasoning
+- **Cross-Task Adaptability**: Techniques that enable models to maintain performance across diverse tasks
+- **Efficiency Improvements**: Reduced computational overhead while maintaining reasoning capabilities
+- **Benchmark Results**: State-of-the-art performance on multi-task reasoning benchmarks
+
+## Repository Structure
+
+```
+├── src/                  # Source code implementation
+│   ├── model.py         # Optimized LLM architecture
+│   ├── train.py         # Multi-task training pipeline
+│   ├── optimize.py      # Optimization strategies
+│   └── utils.py         # Utility functions
+├── data/                # Multi-task datasets
+├── experiments/         # Experimental configurations
+├── results/            # Performance analysis and results
+├── notebooks/          # Analysis notebooks
+└── tests/              # Unit tests
+```
 
 ## Coming Soon
 
@@ -30,10 +53,10 @@ This paper proposes optimization strategies for LLMs to enhance contextual reaso
 If you find this work useful, please consider citing:
 
 ```bibtex
-@inproceedings{smith2025optimizing,
+@inproceedings{smith2026optimizing,
   title={Optimizing Large Language Models for Contextual Reasoning in Multi-Task Environments},
   author={Smith, John and others},
-  booktitle={Under review at COAI 2025 - Conference on Artificial Intelligence},
-  year={2025}
+  booktitle={Proceedings of the Conference on Artificial Intelligence (COAI 2026)},
+  year={2026}
 }
 ```
